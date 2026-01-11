@@ -1,7 +1,12 @@
 # Data (never commit)
-data/raw/
+data/raw/*
 data/interim/
 data/processed/
+
+# But DO commit the instruction README
+!data/raw/
+!data/raw/README.md
+
 
 # Power BI temp & backups
 *.pbi*
@@ -19,3 +24,6 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+!data/raw/README.md
+
