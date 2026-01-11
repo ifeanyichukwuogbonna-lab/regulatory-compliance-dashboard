@@ -1,0 +1,21 @@
+# Data (never commit)
+data/raw/
+data/interim/
+data/processed/
+
+# Power BI temp & backups
+*.pbi*
+*.pbix~*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
